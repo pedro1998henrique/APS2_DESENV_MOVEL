@@ -1,0 +1,27 @@
+
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Login</ion-title>
+  </ion-toolbar>
+
+
+</ion-header>
+<div class="fullheight xc">
+<ion-content >
+  <ion-list >
+    <ion-item >
+      <ion-label>Email: </ion-label>
+      <ion-input [(ngModel)]="userLogin.email" type="text" class="ion-margin" id='email'></ion-input >
+    </ion-item>
+    <ion-item>
+      <ion-label>Senha: </ion-label>
+      <ion-input [(ngModel)]="userLogin.senha" type="text" id='senha'></ion-input>
+    </ion-item>
+  </ion-list>
+
+  <button ion-button full (click)="Login()">Logar</button>
+
+  <button ion-button full (click)="Register()" >Cadastrar</button>
+
+</ion-content>
+</div>

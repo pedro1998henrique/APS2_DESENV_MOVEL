@@ -3,7 +3,18 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+  apiKey: "AIzaSyAEQ5x4Yi-ciCd4iUcKCIuKeMFo756Cp2w",
+  authDomain: "aps-prova.firebaseapp.com",
+  databaseURL: "https://aps-prova.firebaseio.com",
+  projectId: "aps-prova",
+  storageBucket: "aps-prova.appspot.com",
+  messagingSenderId: "654968487238",
+  appId: "1:654968487238:web:3a9d711a493b82b971b947",
+  measurementId: "G-VEKT33K6EB"},
+  API_Key: "72922e3603364ba5b402fa876feaa03e",
+  API_URL: "http://newsapi.org/v2"
 };
 
 /*

@@ -1,0 +1,23 @@
+
+<ion-app>
+  <ion-split-pane contentId="main-content">
+    <ion-menu contentId="main-content" type="overlay" [disabled]="!isLogged">
+      <ion-header>
+        <ion-toolbar color="primary">
+          <ion-title>Pedro Menu</ion-title>
+        </ion-toolbar>
+      </ion-header>
+      <ion-content>
+        <ion-list>
+          <ion-button>Login</ion-button>
+          <ion-button>Cadastro</ion-button>
+          <ion-button>Sobre</ion-button>
+          <ion-button>Google News</ion-button>
+          <ion-button>Google Maps</ion-button>
+        </ion-list>
+      </ion-content>
+    </ion-menu>
+    
+    <ion-router-outlet id="main-content"></ion-router-outlet>
+  </ion-split-pane>
+</ion-app>

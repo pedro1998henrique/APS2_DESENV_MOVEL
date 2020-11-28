@@ -1,5 +1,8 @@
 {
   "name": "APS2_DESENV_MOVEL",
-  "integrations": {},
+  "integrations": {
+    "cordova": {},
+    "capacitor": {}
+  },
   "type": "angular"
 }
